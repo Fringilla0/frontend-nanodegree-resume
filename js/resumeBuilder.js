@@ -17,6 +17,6 @@ var bio = { "name" : "Fringilla",
             "contacts" : { "email" : "fringilla0@gmail.com", 
                            "twitter" : "@fringilla0" },
             "bioPic" : "images/fry.jpg", 
-            "welcomeMsg" : "Nazdar." }
+            "welcomeMsg" : "Nazdar." };
 
-$("#header").append(bio);
+$("#main").append(bio);

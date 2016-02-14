@@ -22,4 +22,4 @@ var bio = { "name" : "Fringilla",
             "welcomeMsg" : "Nazdar.",
             "skills" : skills };
 
-$("#main").append(bio);
+$("#header").append(bio);

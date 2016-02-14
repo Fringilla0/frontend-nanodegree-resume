@@ -12,11 +12,14 @@ var formattedEmail = HTMLemail.replace("%data%", email);
 $("#header").append(formattedName);
 $("#header").append(formattedRole);
 
+var skills = ["understanding speech of birds", "recognizing bird species"];
+
 var bio = { "name" : "Fringilla", 
             "role" : "birdwatcher", 
             "contacts" : { "email" : "fringilla0@gmail.com", 
                            "twitter" : "@fringilla0" },
             "bioPic" : "images/fry.jpg", 
-            "welcomeMsg" : "Nazdar." };
+            "welcomeMsg" : "Nazdar.",
+            "skills" : skills };
 
 $("#main").append(bio);

@@ -12,4 +12,4 @@ var formattedEmail = HTMLemail.replace("%data%", email);
 $("#header").append(formattedName);
 $("#header").append(formattedRole);
 
-$("#header").append(formattedEmail);
+$("#main").append(formattedEmail);

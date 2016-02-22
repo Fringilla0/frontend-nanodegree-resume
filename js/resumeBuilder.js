@@ -16,7 +16,8 @@ $("#header").append(formattedRole);
 
 var skills = ["undestanding bird language", "bird species recognizing"];
 
-$("#main").append(skills[0] + skills[1]);
+$("#main").append(skills[0]);
+$("#main").append(skills[1]);
 
 /*
 var bio = {

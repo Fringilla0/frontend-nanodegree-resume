@@ -14,9 +14,9 @@ $("#header").append(formattedRole);
 // var formattedEmail = HTMLemail.replace("%data%", email);
 // $("#main").append(formattedEmail);
 
-var skills = [ "undestanding bird language", "bird species recognizing" ];
+var skills = ["undestanding bird language", "bird species recognizing"];
 
-$("#main").append(skills);
+$("#main").append(skills[0]);
 
 /*
 var bio = {

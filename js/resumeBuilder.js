@@ -10,13 +10,10 @@ var formattedRole = HTMLheaderRole.replace("%data%", role);
 $("#header").append(formattedName);
 $("#header").append(formattedRole);
 
-var email = "fringilla0@gmail.com";
+// var email = "fringilla0@gmail.com";
+// var formattedEmail = HTMLemail.replace("%data%", email);
+// $("#main").append(formattedEmail);
 
-var formattedEmail = HTMLemail.replace("%data%", email);
-
-$("#main").append(formattedEmail);
-
-/*
 var bio = {
   "name" : "Fringilla",
   "role" : "birdwatcher",
@@ -35,4 +32,3 @@ var bio = {
 }
 
 $("#main").append(bio);
-*/
